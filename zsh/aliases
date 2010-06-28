@@ -8,6 +8,7 @@ alias ll="ls -l"
 alias la='ls -A'
 
 # git
+alias g="git"
 alias gl='git pull'
 alias gp='git push'
 alias gd='git diff'
@@ -16,9 +17,11 @@ alias gca='git commit -a'
 alias gco='git checkout'
 alias gb='git branch'
 alias gs='git status'
+alias gst='git status'
 alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 
 # rails
+alias r="rails"
 alias sc='script/console'
 alias ss='script/server'
 alias sg='script/generate'
@@ -30,3 +33,5 @@ alias rst='touch tmp/restart.txt'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+alias m="mate"
