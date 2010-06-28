@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/jruby-1.11.5/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/jruby-1.11.5/bin:~/.rvm/bin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
 export PATH=/opt/local/bin:/opt/local/sbin:$PATH
 export MANPATH=/opt/local/share/man:$MANPATH
