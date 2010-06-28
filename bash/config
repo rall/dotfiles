@@ -11,6 +11,3 @@ export ANT_HOME='/Developer/Java/ant'
 export AUTOFEATURE=false
 export RSPEC=true
 export EDITOR="mate"
-
-# for Ruby Version Manager
-if [[ -s /Users/richard/.rvm/scripts/rvm ]] ; then source /Users/richard/.rvm/scripts/rvm ; fi
