@@ -1,1 +1,4 @@
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/jruby-1.11.5/bin:~/.rvm/bin:~/bin:$PATH
+
+#add ec2 tools
+export PATH=~/.ec2/bin:$PATH
