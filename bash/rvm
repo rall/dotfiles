@@ -1,2 +1,4 @@
 # for Ruby Version Manager
 if [[ -s /Users/richard/.rvm/scripts/rvm ]] ; then source /Users/richard/.rvm/scripts/rvm ; fi
+
+export JRUBY_INVOCATION="$(readlink "$(which celerity_jruby)")"
