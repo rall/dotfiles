@@ -13,3 +13,6 @@ function railsapp {
 
 # misc
 alias reload='. ~/.bash_profile'
+
+# ssh tunnels
+alias datastoretunnel='ssh -f -i ~/.ec2/rubber -L 7777:localhost:5432 obikosh@ec2-50-16-54-145.compute-1.amazonaws.com -N'
