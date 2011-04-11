@@ -11,6 +11,9 @@ function railsapp {
   rails $appname -m http://github.com/ryanb/rails-templates/raw/master/$template.rb $@
 }
 
+#git flow
+alias gff='git flow feature'
+
 # misc
 alias reload='. ~/.bash_profile'
 
