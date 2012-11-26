@@ -10,7 +10,6 @@ export ANT_HOME='/Developer/Java/ant'
 # for autotest:
 export AUTOFEATURE=false
 export RSPEC=true
-export EDITOR="mate"
 
 # for ec2
 export EC2_HOME=~/.ec2
@@ -19,3 +18,4 @@ export EC2_CERT=$EC2_HOME/cert-5RNTUBTR5P65KS7ZEJTRVRIXTS6BS34I.pem
 
 # rvm
 export JRUBY_INVOCATION="$(readlink "$(which celerity_jruby)")"
+export EDITOR="subl"
