@@ -11,7 +11,3 @@ fi
 if [ -f ~/.localrc ]; then
   . ~/.localrc
 fi
-
-source ~/.bash/rvm
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
