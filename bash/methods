@@ -1,9 +1,0 @@
-rmt () { 
-	if [ $1 ]
-		then dir=$1
-	else
-		dir="."
-	fi
-	(cd $dir; mate app config db doc lib spec features test public vendor README Gemfile Rakefile Capfile)
-}
-
